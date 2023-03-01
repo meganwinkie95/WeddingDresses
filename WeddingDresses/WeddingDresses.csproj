@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\NewFolder\wedding_1.jpeg" />
+    <Content Remove="wwwroot\NewFolder\Wedding_2.jpeg" />
+    <Content Remove="wwwroot\NewFolder\Wedding_3.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\NewFolder\" />
+  </ItemGroup>
+
+</Project>
